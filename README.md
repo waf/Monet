@@ -54,9 +54,9 @@ of `Option<T>` as similar to `IEnumerable<T>`, we can just `Select` over it to d
 
 ```csharp
 var option = from charles in FindMonkeyByName("Charles")
-              from tree in GetTreeClosestTo(charles)
-              from banana in charles.PickBanana(tree)
-              select new { charles, banana };
+             from tree in GetTreeClosestTo(charles)
+             from banana in charles.PickBanana(tree)
+             select new { charles, banana };
 
 option.Match(
     Some: result => result.charles.Eat(result.banana),
