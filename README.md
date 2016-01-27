@@ -1,3 +1,4 @@
+<img src="http://i.imgur.com/xxXqLNb.jpg" height="110px" alt="Monet" align="right" />
 # Monet
 Option and Result types for .NET, [inspired by Rust](https://doc.rust-lang.org/book/error-handling.html). This README is a work in progress.
 
